@@ -1,0 +1,11 @@
+{
+  "name": "Contacts",
+  "version": "1.0.0",
+  "identifier": "com.freebsdx.contacts",
+  "executable": "bin/contacts",
+  "icon": "Resources/icon.svg",
+  "permissions": [
+    "com.freebsdx.permission.UI"
+  ],
+  "mime_types": []
+}
