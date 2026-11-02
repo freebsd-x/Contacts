@@ -206,7 +206,7 @@ int main(int argc, char** argv) {
 
         if (sorted.empty() || (contacts->empty())) {
             auto hint = std::make_shared<TextWidget>("No contacts", 13.0f);
-            hint->setColor(0.4f, 0.4f, 0.4f, 1.0f);
+            hint->setColor(0.58f, 0.58f, 0.58f, 1.0f);   // ≥ 4.5:1 on the list panel
             hint->setPadding(12);
             lc->addChild(hint);
         }
