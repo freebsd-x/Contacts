@@ -362,6 +362,8 @@ int main(int argc, char** argv) {
         };
 
         make_input("FIRST NAME", "First name", existing.first_name, ef_first);
+        // The form opens ready to type into (focus stayed on "+ Add Contact").
+        std::static_pointer_cast<TextInputWidget>(*ef_first)->setAutofocus(true);
         make_input("LAST NAME",  "Last name",  existing.last_name,  ef_last);
         make_input("EMAIL",      "Email address", existing.email,   ef_email);
         make_input("PHONE",      "Phone number",  existing.phone,   ef_phone);
